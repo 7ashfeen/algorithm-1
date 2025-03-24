@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="q]?.Zpp1k#K(p|:#VbmV" x="-86" y="-541"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="g^?9=_nnW@?r7|ZE6V=4"><value name="TIMES"><shadow type="math_whole_number" id="qOABZ8[Bh8abeQ#bkI^|"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_ring" id="j4kE5Y!E.:7{Y~LfJ5XQ"><value name="note"><shadow type="device_note" id="V[M`R]gxf|kH2[8$|(E3"><field name="name">262</field></shadow></value></block></statement><next><block type="controls_repeat_ext" id="3(|i1YU-flZ.Bt~Y,TDZ"><value name="TIMES"><shadow type="math_whole_number" id="}IsFY?q-M5HG-DY;o))x"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="device_show_leds" id="kZbNow9.q3}g%*L#6cGw"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # # # # # 
+        # . . . # 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="`+tzg8V`$xm-AOH68Tqp"><field name="LEDS">`
+        # # # # # 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        # # # # #
+        `</field><next><block type="basic_show_icon" id="$`heOL{nV3Nr?7`79FE*"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="6SsoWt2g218:%bt_CVFT"><field name="i">IconNames.Happy</field><next><block type="music_playable_play" id="eS0V%/1*uy9q@C,:kjtJ"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="`yIs`VgjD1nC}}vS=Rg_"><value name="melody"><shadow type="melody_editor" id="zU64?xE(%+4LnY-L2~de"><field name="melody">"C D E F F E D C "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="W)^!6[RR#mp`?^d:1}A_"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></next></block></statement></block><block type="game_create_sprite" id="A_McL1Tw1#^`t+7_SV6q" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="374" y="-421"><value name="x"><shadow type="math_number" id="lRs:HKi6U`z+D_scY3lE" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">100</field></shadow></value><value name="y"><shadow type="math_number" id="c,;{q+eN@g*A%Ndae%j3" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">100</field></shadow></value></block><block type="device_forever" id="-9iBh++fUX[,2Te#4oM5" x="0" y="0"></block></xml>
